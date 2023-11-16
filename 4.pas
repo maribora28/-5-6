@@ -10,7 +10,7 @@ var
 
 begin
   for i := 1 to c do
-    A[i] := random(167) - 99;  
+    A[i] := random(67) - 99;  
   writeln('Массив А:');
   for i := 1 to c do
     write(A[i], ' ');
